@@ -3,6 +3,15 @@
 ## Descrição
 
 Este projeto consiste na protótipação de uma plataforma de LMS aos moldes do modelo de negócio SaaS, a plataforma foi idealizada considerando a atual situação de algumas empresas privadas voltados para a prestação de serviços educacionais.
+
+## Tecnologias utilizadas
+
+- React - Front End
+- Nodejs - Backend 
+- Twilio Programmable Chat API
+- Twillio Programmable Video API
+- Twillio Programmable SMS API
+- Twillio API for Whatsapp
    
 ## Frontend
 
