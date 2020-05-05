@@ -20,17 +20,6 @@ Este projeto consiste na protótipação de uma plataforma de LMS aos moldes do 
 
 Video Conferencia 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qAFYUroMWwg/0.jpg)](https://www.youtube.com/watch?v=qAFYUroMWwg)
-
-VIDEO
-
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lhqKjwIYgHE/0.jpg)](https://www.youtube.com/watch?v=lhqKjwIYgHE)
-
-Apresentacao - pitch
-
-
-[![Watch the video] (https://www.youtube.com/watch?v=lhqKjwIYgHE)
 
 ## Funcionalidades 
 
