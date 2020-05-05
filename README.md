@@ -78,7 +78,7 @@ Instalação do frontend
   
   REACT_APP_TOKEN_ENDPOINT= [ Endpoint ]
   
- ##Inicialização
+ ## Inicialização
  
  Iniciando o frontend
  ``` 
