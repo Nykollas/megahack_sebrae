@@ -18,8 +18,10 @@ Este projeto consiste na protótipação de uma plataforma de LMS aos moldes do 
 
 [Demo](https://megahacksebrae.herokuapp.com/quickstart/)
 
-Video
+Video Conferencia 
+https://youtu.be/qAFYUroMWwg
 
+apresentacao - pitch
 [![Watch the video] (https://www.youtube.com/watch?v=lhqKjwIYgHE)
 
 ## Funcionalidades 
