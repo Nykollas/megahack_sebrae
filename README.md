@@ -28,15 +28,15 @@ Instalação do frontend
 
 ```
   cd frontend 
-   yarn install
-   yarn start 
+  yarn install
+  
  ```
  
  Instalação da videoconferência
  ```
    cd videoconf 
    yarn install
-   yarn start 
+   
  ```
  ## Uso
  
@@ -60,6 +60,20 @@ Instalação do frontend
   
   REACT_APP_TOKEN_ENDPOINT= [ Endpoint ]
   
+ ##Inicialização
+ 
+ Iniciando o frontend
+ ``` 
+ cd frontend 
+ yarn start
+ 
+ ```
+ Iniciando a videoconferência
+ ``` 
+ cd videoconf 
+ yarn start
+ 
+ ```
   
  ## Referência 
  
