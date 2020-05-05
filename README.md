@@ -24,8 +24,10 @@ Este projeto consiste na protótipação de uma plataforma de LMS aos moldes do 
 ![Page](https://firebasestorage.googleapis.com/v0/b/github-f7e0a.appspot.com/o/Captura%20de%20tela%20de%202020-05-04%2021-44-16.png?alt=media&token=a05ebca3-206e-4129-a1ca-da31d9bff71a)
 
 ## Video Conferência
-lhqKjwIYgHE
+
 [Demo](https://megahacksebrae.herokuapp.com/quickstart/)
+
+## Pitch
 
 [![Watch the video](https://img.youtube.com/vi/lhqKjwIYgHE/maxresdefault.jpg)](https://youtu.be/lhqKjwIYgHE)
 
