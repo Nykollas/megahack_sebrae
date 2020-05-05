@@ -29,13 +29,13 @@ Este projeto consiste na protótipação de uma plataforma de LMS aos moldes do 
 
 Click para ver o video no youtube
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qAFYUroMWwg/0.jpg)](https://www.youtube.com/watch?v=qAFYUroMWwg)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qAFYUroMWwg/maxresdefault.jpg)](https://www.youtube.com/watch?v=qAFYUroMWwg)
 
 ## Pitch
 
 Click para ver o video no youtube
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lhqKjwIYgHE/0.jpg)](https://www.youtube.com/watch?v=lhqKjwIYgHE)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lhqKjwIYgHE/maxresdefault.jpg)](https://www.youtube.com/watch?v=lhqKjwIYgHE)
 
 
 
