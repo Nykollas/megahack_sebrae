@@ -1,4 +1,4 @@
-# sebrae_megahack
+# Descolar
 
 ## Descrição
 
@@ -62,13 +62,12 @@ Instalação do frontend
  ```
  ## Uso
  
- Na tela de aluno clique na disciplina de Língua Portuguesa, para acessar a tela de atividades, Clique na primeira linha da tela gravada
- para acessar a tela com o conteúdo da aula. Na coluna "Acontecendo agora" clique no primeiro card para acessar a sala de videoconferência.
+Na tela de aluno clique na disciplina de Língua Portuguesa, para acessar a tela de atividades, Clique na primeira linha da tela gravada para acessar a tela com o conteúdo da aula. Na coluna "Acontecendo agora" clique no primeiro card para acessar a sala de videoconferência.
  
  
  ## Configuração
  
- Crie um .env na raiz do projeto qe você prentende instalar conforme o exemplo abaixo
+ Crie um arquivo .env na raiz do projeto que você prentende instalar conforme o exemplo abaixo:
  
   TWILIO_ACCOUNT_SID= [ Account SID ]
   
