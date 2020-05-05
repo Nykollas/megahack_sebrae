@@ -18,6 +18,10 @@ Este projeto consiste na protótipação de uma plataforma de LMS aos moldes do 
 
 [Demo](https://megahacksebrae.herokuapp.com/quickstart/)
 
+Video
+
+https://www.youtube.com/watch?v=lhqKjwIYgHE
+
 ## Funcionalidades 
 
 Foi implementado a funcionalidade de Chat e Videoconferência utilizando se as API's Twillio Programmable Chat e Twillio Programmable  Video.  Além destas também foi inserido recursos de notificação via Whatsapp e via SMS, também usando recursos oferecidos pela Twillio.
@@ -53,6 +57,10 @@ Instalação do frontend
   TWILIO_API_KEY_SID= [ Key SID ]
   
   TWILIO_API_KEY_SECRET= [ Key Secret ]
+  
+  TWILIO_AUTH_TOKEN = [ XXX ]
+  
+  TWILIO_MESSAGE_SERVICE_ID = [ XXX ]
   
   
   Endpoint para a obtenção de token.
