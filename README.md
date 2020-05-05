@@ -20,7 +20,7 @@ Este projeto consiste na protótipação de uma plataforma de LMS aos moldes do 
 
 Video
 
-https://www.youtube.com/watch?v=lhqKjwIYgHE
+[![Watch the video] (https://www.youtube.com/watch?v=lhqKjwIYgHE)
 
 ## Funcionalidades 
 
