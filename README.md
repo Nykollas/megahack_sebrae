@@ -6,12 +6,12 @@ Este projeto consiste na protótipação de uma plataforma de LMS aos moldes do 
 
 ## Tecnologias utilizadas
 
-- React - Front End
-- Nodejs - Backend 
-- Twilio Programmable Chat API
-- Twillio Programmable Video API
-- Twillio Programmable SMS API
-- Twillio API for Whatsapp
+- Front End: React.js
+- Backend: Nodejs
+- Chat: Twilio Programmable Chat API
+- Video Conferencia: Twillio Programmable Video API
+- Envio de SMS: Twillio Programmable SMS API
+- Envio de WhatsAPP: Twillio API for Whatsapp
    
 ## Frontend
 
