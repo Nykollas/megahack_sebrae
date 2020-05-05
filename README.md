@@ -48,13 +48,18 @@ Instalação do frontend
  
  Crie um .env na raiz do projeto qe você prentende instalar conforme o exemplo abaixo
  
-  TWILIO_ACCOUNT_SID=
-  TWILIO_API_KEY_SID=
-  TWILIO_API_KEY_SECRET=
+  TWILIO_ACCOUNT_SID= [ Account SID ]
+  
+  TWILIO_API_KEY_SID= [ Key SID ]
+  
+  TWILIO_API_KEY_SECRET= [ Key Secret ]
+  
   
   Endpoint para a obtenção de token.
   
-  REACT_APP_TOKEN_ENDPOINT=
+  
+  REACT_APP_TOKEN_ENDPOINT= [ Endpoint ]
+  
   
  ## Referência 
  
