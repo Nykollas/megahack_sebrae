@@ -1,0 +1,22 @@
+@import url('./mixins.less');
+
+.submit-button-container{
+    .default-dark-shadow();
+    .full-centered();
+    height:@submit-button-height;
+    width:@submit-button-width;
+    background-color: @solid-blue;
+    border-radius:12px;
+    border-width: 2px;
+    border-style:solid;
+    border-color:@white;
+    button{
+        border:none;
+        background:transparent;
+        font-size: 18px;
+        color:white;
+        width: 100%;
+        height: 100%;
+
+    };
+}

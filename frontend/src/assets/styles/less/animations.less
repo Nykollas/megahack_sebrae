@@ -1,0 +1,26 @@
+//Utilize estes mixins para definir as animações
+.keyframes(@name, @arguments){
+	@-moz-keyframes @name { @arguments(); }
+	@-webkit-keyframes @name { @arguments(); }
+	@keyframes @name { @arguments(); }
+}
+
+.animation(@arguments) {
+	-webkit-animation: @arguments;
+	-moz-animation: @arguments;
+	animation: @arguments;
+}
+
+
+
+//Lista de animações 
+
+@open-drawer-animation:{
+     0% { left: -301px; }
+    100% { left:0px; }
+};
+
+@close-drawer-animation:{
+    0% { left: 0px }
+   100% { left:-301px; }
+};

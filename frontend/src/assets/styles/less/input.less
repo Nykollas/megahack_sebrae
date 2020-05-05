@@ -1,0 +1,22 @@
+@import url('./mixins.less');
+
+.card-input-container{
+
+    .default-dark-shadow();
+    .full-centered();
+    width: @input-width;
+    height:@input-height;
+    background-color: @white;
+    margin-bottom:18px;
+    border-radius:12px;
+    padding-left:@input-padding-horizontal;
+    padding-right:@input-padding-horizontal;
+    input{
+        border:none;
+        border-radius:12px;
+        height: @input-height - (@input-padding-horizontal / 2) ;
+        width:@input-width - @input-padding-horizontal;
+        font-size:18px;
+        
+    }
+}

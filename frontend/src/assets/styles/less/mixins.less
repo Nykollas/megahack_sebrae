@@ -1,0 +1,112 @@
+@import url('./colors.less');
+
+.full-centered{
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.row-vertical-centered{
+    display:flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.row-horizontal-centered{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+.row-horizontal-start{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.row-vertical-start{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.row-horizontal-end{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.row-vertical-end{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.default-shadow{
+    box-shadow: 1px 1px 1px 1px darken(@light-gray,30%);
+}
+
+.default-dark-shadow{
+    box-shadow: 1px 2px 5px 0px darken(@light-gray,65%);
+}
+
+.col-horizontal-centered{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+.col-vertical-centered{
+    display:flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.col-horizontal-start{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+}
+.col-vertical-start{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;    
+}
+
+.col-horizontal-end{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;    
+}
+.col-vertical-end{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;    
+}
+
+.gray-border{
+    border-style: solid;
+    border-width: 1px;
+    border-color:@light-gray
+}
+
+.blue-text{
+    font-size:18px;
+    color:@light-blue;
+    font-weight: bold;
+}
+
+.gray-text{
+    font-size:18px;
+    color:@strong-gray;
+    font-weight: bold;
+}
+
+.blue-border{
+    border-style: solid;
+    border-width: 2px;
+    border-color:@light-blue
+}
+
+.transition-properties(...) {
+    -webkit-transition: @arguments;
+    -moz-transition: @arguments;
+    -o-transition: @arguments;
+    transition: @arguments;
+  }
+  
+

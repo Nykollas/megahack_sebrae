@@ -1,0 +1,30 @@
+.table{
+    .gray-border();
+    width:3*@column-width;
+    padding:8px;
+    border-radius:12px;
+    margin-right:130px;
+}
+.table-header{
+    .row-vertical-start();
+    background-color: lighten(@strong-gray, 40%);
+    border-radius:@default-border-radius;
+    padding-left:6px;
+    padding-right:6px;
+    flex:0;
+}
+.table-row{
+    .row-vertical-start();
+    padding-left:6px;
+    padding-right:6px;
+}
+.table-column{
+    width:@table-width;
+    margin-left:12px;
+    margin-right:12px;    
+}
+.table-container{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}

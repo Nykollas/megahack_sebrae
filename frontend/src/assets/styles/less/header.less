@@ -1,0 +1,37 @@
+@import url('./mixins.less');
+
+//Nome das classes
+.header{
+
+    //Mixins
+    .row-vertical-centered();
+    .default-shadow();
+
+    //Regras específicas da classe
+    background-color: @solid-blue;
+    height: @header-height;
+    width: 100%;
+   
+}
+.header-icon-container{
+
+    .row-vertical-centered();
+
+    margin:8px;
+    
+}
+
+.header-title{
+
+    .row-horizontal-centered();
+
+    width: 100%;
+    
+}
+
+.header-title-text{
+    font-size: @header-text-size;
+    color: @white;
+    font-weight: bold;
+    padding-right: 32px;
+}

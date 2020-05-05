@@ -1,0 +1,22 @@
+.hashtags-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex:19;
+    margin-top:32px;
+    .hashtag{
+        margin-bottom:20px;
+        .blue-border();
+        padding-left:24px;
+        padding-right:24px;
+        padding-top:8px;
+        padding-bottom:8px;
+        margin-right:12px;
+        border-radius: @default-border-radius + 12;
+        .full-centered();
+        .hashtag-text{
+            .blue-text();
+            margin:0;
+        }
+    }
+}

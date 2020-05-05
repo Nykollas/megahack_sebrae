@@ -1,0 +1,24 @@
+
+@import  url('./mixins.less');
+
+.carousel-container{
+    .row-vertical-centered();
+    margin-left:@left-margin ;
+    margin-right:@left-margin;
+    overflow: hidden;
+    margin-top:32px;
+    padding-bottom:8px;
+    height: 45vh;
+    width: 60vw;
+    .carousel-image-container{
+        height:100%;
+        margin-right:16px;   
+        box-shadow: 1px 1px 1px 1px gray;
+        border-radius:@default-border-radius;
+        img{
+            height: 100%;
+            border-radius:@default-border-radius
+        }
+    }
+
+}

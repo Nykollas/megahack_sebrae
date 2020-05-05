@@ -1,0 +1,310 @@
+html {
+  height: 100%;
+  height:100vh;
+  overflow-y:hidden;
+}
+
+body {
+  height: 100%;
+}
+
+div.container-fluid {
+  height: 100%;
+}
+
+#room{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  
+}
+div#participants {
+  overflow-y: auto;
+}
+
+div.participant {
+  background: center no-repeat url("data:image/svg+xml;utf8,<svg class='bi bi-person-fill' width='80' height='45' viewBox='0 0 16 16' fill='currentColor' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 100-6 3 3 0 000 6z' clip-rule='evenodd'/></svg>");
+  border: 1px solid gray;
+  display: inline-flex;
+  height:64vh;
+  margin: 10px 5px;
+  max-width: 160px;
+  overflow: hidden;
+}
+
+div.participant > video {
+  width: 100%;
+}
+
+div.participant.main {
+  height: inherit;
+  margin: 0px 0;
+  max-width: 100%;
+}
+
+div.participant.main > video {
+  height: 398px;
+}
+
+div.participant.active {
+  border: 1px solid crimson;
+  box-shadow: 0 0 5px crimson;
+}
+
+div.participant.active.pinned {
+  border: 1px solid limegreen;
+  box-shadow: 0 0 5px limegreen;
+}
+
+div.participant:hover {
+  cursor: pointer;
+}
+
+div.participant::before {
+  background-color: black;
+  color: white !important;
+  content: attr(data-identity);
+  font-size: 10px;
+  padding: 0 5px;
+  position: absolute;
+  z-index: 1000;
+}
+
+div.participant.main{
+ height:64vh;
+
+}
+div.participant.main::before {
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+
+@media (max-width: 576px) {
+  div#participants {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  div.participant.main > video {
+    height: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  div.participant.main > video {
+    height: 270px;
+  }
+}
+
+#active-participant{
+  overflow-y:scroll;
+  padding-top:28px;
+  height:88vh;
+}
+
+#chat{
+  width:260px;
+  background-color: #E1E1E1; 
+  padding-left:16px;
+  padding-right:16px;
+  padding-bottom:64px;
+  max-height:88vh;
+  overflow-y:hidden;
+  overflow-x:hidden
+
+}
+.chat-title-container p{
+  color:#AFADAD;
+  font-size:16px;
+}
+
+.messages-container{
+  height:66vh;
+  box-shadow:inset 1px 1px 1px 1px #aaaaaa;
+  border-radius:12px;
+  padding-left:12px;
+  padding-top:12px;
+  padding-bottom:12px;
+}
+.messages-scroll{
+  height:62vh;
+  overflow-y:scroll;
+  margin:auto;
+  border-radius:12px;
+  padding-right:12px;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #AAAAAA;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4D66DD;
+}
+.message-container{
+
+  background-color:#F9F5F2;
+  border-radius:18px;
+  padding-top:8px 0px;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom:16px;
+  
+
+}
+
+.message-container:hover{
+  box-shadow:1px 1px 1px 1px #E1E1E1;
+}
+
+.message-header{
+  display:flex;
+  flex-direction:row; 
+  align-items: center;
+  justify-content: space-between;
+  flex:1;
+  width: 100%;
+}
+.message-icon{
+  height:42px;
+  width:42px;
+  background-color:#C4C4C4;
+  border-radius:100px;
+}
+.message-author{
+  margin:0px;
+  font-size:16px;
+  color:black;
+
+}
+.message-text{
+  font-size:18px;
+  text-align: justify;
+  padding:0px 24px;
+  margin-top:12px;
+  color:#666666;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+}
+
+#chat-input{
+  border-radius:64px;
+  border:0;
+  width:160px;
+}
+
+.chat-input-container{
+  background-color: white;
+  border-radius:64px; 
+  display: flex;
+  height:42px;
+  padding:8px;
+  flex-direction:row;
+  margin-bottom:12px;
+  margin-top:12px;
+}
+.chat-input-container button{
+  border:0px;
+  background-color: transparent;
+  position: relative;
+  right:0px;
+}
+.duvidas-panel{
+  width:100%;
+  background-color:#EFE6E6;
+  border-radius:36px;
+  display: flex;
+  margin-top:32px;
+  height:300px;
+  overflow-x: hidden;
+  flex-direction: column;
+  margin-bottom:32px;
+}
+.duvidas-container{
+  overflow-y: scroll;
+  height:300px;
+  margin-bottom:16px;
+}
+.title-panel-duvidas{
+  padding:24px;
+}
+.title-panel-duvidas p{
+  font-size: 20px;
+  margin:0
+}
+.duvidas-row{
+  display: flex;
+  flex-direction: row;
+  background-color: #F3EEEE;
+  align-items: center;
+  justify-content: space-around;
+  padding:6px 16px;
+  margin:6px auto;
+  width: 40vw;
+  border-radius:36px;
+}
+.duvidas-text{
+  
+  flex:1;
+}
+.duvidas-text p{
+  font-size: 16px;
+  margin:0;
+}
+.duvidas-index p{
+  font-size:18px;
+  margin:0;
+}
+.duvidas-like-button p{
+  font-size:18px;
+  margin:0;
+  color:#A6A2A2
+}
+.duvidas-like-button{
+  border:1px solid #A6A2A2;
+  display:flex;
+  flex-direction: row;
+  border-radius:24px;
+  width:72px;
+  justify-content: space-around;
+  padding:4px;
+  cursor:pointer;
+}
+
+.duvida-input-container{
+  background-color: white;
+  width:400px;
+  display: flex;
+  flex-direction: row;
+  border-radius:12px;
+  height:36px;
+  justify-content: space-between;
+  padding-left:32px;
+}
+#duvida_input{
+  border:0px;
+  border-radius:12px;
+  width:100%;
+}
+#duvida_input:hover{
+  border:0px;
+}
+#duvida-input:focus{
+  border-color:#4D66DD;
+  border-width: 1px;
+}
+.duvida-button{
+  background-color: transparent;
+  border:0px;
+}

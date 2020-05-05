@@ -1,0 +1,40 @@
+.navigation-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex:4;
+}
+
+.navigation-option{
+    margin-right:24px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-option p{
+    font-size:12px;
+    color:white;
+    margin:0;
+}
+
+.icon-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.header-data{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-items: flex-end;
+    margin-right: 42px;
+}
+.header-data p{
+    font-size: 8px;
+    color:white;
+    margin:4px;
+    
+    
+}

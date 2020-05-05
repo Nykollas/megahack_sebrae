@@ -1,0 +1,28 @@
+@import  url('./mixins.less');
+
+
+.search-input-container{
+    .row-vertical-centered();
+    border:2px solid @light-blue;
+    border-radius: 12px;
+    justify-content: space-between;
+    padding-left:12px;
+    padding-right:12px;
+    padding-top:6px;
+    padding-bottom:6px;
+    .default-dark-shadow();
+    input{
+        border:none;
+        margin-right:10vw
+    }
+}
+
+
+.search-container{
+    display: flex;
+    flex-direction: row;
+    padding-left:20vw;
+    padding-right:20vw;
+    justify-content: space-between;
+    margin-top:32px;
+}

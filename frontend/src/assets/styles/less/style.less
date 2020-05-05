@@ -1,0 +1,53 @@
+@import url('./colors.less');
+@import url('./header.less');
+@import url('./measures.less');
+@import url('./main_card.less');
+@import url('./submit_button.less');
+@import url('./input.less');
+@import url('./carousel.less');
+@import url('./table.less');
+@import url('./empresa.less');
+@import url('./hastags.less');
+@import url('./userdata.less');
+@import url('./drawer.less');
+@import url('./search-input.less');
+
+.password-recovery-label{
+    font-size:16px;
+    color:@white;
+    font-weight: bold;
+}
+.password-recovery-label-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width:@input-width;
+}
+.illustration-container{
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.dashboard-container{
+    .row-vertical-end();
+    margin-left:@left-margin;
+    margin-left:@left-margin;
+    margin-bottom:32px;
+}
+
+
+.empresa-data-container{
+    .col-vertical-centered();
+}
+
+.empresa-data-text-container{
+    margin-left:28px;
+    p{
+        .blue-text();
+        margin-bottom:28px;
+        margin-top:0px;
+    }
+}
+
