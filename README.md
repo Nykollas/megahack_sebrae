@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este projeto consiste na protótipação de uma plataforma de LMS aos moldes do modelo de negócio SaaS, a plataforma foi idealizada considerando a atual situação de algumas empresas privadas voltados para a prestação de serviços educacionais.
+Este projeto consiste na protótipação de uma plataforma de LMS aos moldes do modelo de negócio SaaS, a plataforma foi idealizada considerando a atual situação de algumas empresas privadas voltadas para a prestação de serviços educacionais.
 
 ## Tecnologias utilizadas
 
